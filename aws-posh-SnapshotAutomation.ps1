@@ -67,6 +67,7 @@ if ($VolumeId) {
     exit 0
 }
 
+
 # Search Instance by IP to Get Attached Volumes
 if ($InstanceIP) {
     Write-Output "Searching for EC2 instance with IP address: $InstanceIP..."
